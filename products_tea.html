@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">  
+    <link rel="icon" type="image/x-icon" href="images/green-tea.png">
+    <link rel="stylesheet" href="styles/style3.css">
+    <title>Our Product:tea</title>
+</head>
+<body >
+    <!-- header block -->   
+    <header>
+        <nav class="header-text">      
+            <ul class="header-un-list">
+                <a href="aboutUs.html" class="header-link"><li class="header-list"><span class="header-li-span">Про нас</span></li></a>
+                <a href="products.html" class="header-link"><li class="header-list"><span class="header-li-span">Каталог продукції</span></li></a>
+                <a href="delivery.html" class="header-link"><li class="header-list"><span class="header-li-span">Доставка та оплата</span></li></a>
+            </ul>    
+        </nav>
+        <a href="index.html">
+            <div class="header-icon">
+                <img src="images/green-tea.png" alt="teacup" class="icon" style="width: 35px ; height: 35px;">
+            </div>
+        </a>
+    </header>
+<!-- the div of a whole page except aside block -->
+<hr>
+<div class="wholepage"> 
+
+<!-- Main/list of products-->
+        <main>
+            <div style="background-color: #ddd; width: 1000px;"></div>
+                <h2>Друзі,</h2>
+                <p>Зараз, через певні проблеми наш сайт не може повноцінно опрацьовувати запити стосовно придбання нашої продукцї. Ми вимушені перейти на замовлення через дзвінки: на сайті розміщені актуальні ціни на товар, якщо ви хочете його замовити - просто зателефонуйте нам за номером зазначеним ось <a href="#number"> тут</a>. Вибачте за тимчасові незручності.</p>
+                
+                <h1>TeaSpot</h1>
+                <i><a href="index.html">TeaSpot</a> > <a href="products.html">Продукція</a> > Чай</i>
+                     
+             </div>
+             <h2>Чай</h2>
+            <ul class="all-products" style="list-style:none;">
+<!-- Ceylon section -->
+                <li>
+                    <div class="ceylon_pride-div">
+                        <img src="images/ceylon_pride.jpg" alt="ceylon pride photo" style="width: 300px; height: 300px;">
+                        <h3>Гордість Цейлону</h3>
+                        <p> <span id="testCeylon">-</span> грн</p>
+                        <span class="hover1" style="color: green; cursor:pointer;" onclick="myFunctionOneCeylon()">25 г</span>
+                        <span class="hover2" style="color: green; cursor:pointer;" onclick="myFunctionTwoCeylon()">50 г</span>
+                        <span class="hover3" style="color: green; cursor:pointer;" onclick="myFunctionThreeCeylon()">100 г</span>
+                    </div>
+
+                <!-- a try JS Ceylon -->
+                    <div>              
+                        <script>
+                        function myFunctionOneCeylon() {
+                        document.getElementById("testCeylon").innerHTML="30";
+                }
+                        function myFunctionTwoCeylon() {
+                        document.getElementById("testCeylon").innerHTML="60";
+                }
+                        function myFunctionThreeCeylon() {
+                        document.getElementById("testCeylon").innerHTML="120";
+                }
+                    </script>                    
+                    </div>
+                </li>
+<!-- Roibush section -->
+                <li>
+                    <div class="roibush-div-box">
+                        <img src="images/rooibos_pure.jpg" alt="roobios photo" style="width: 300px; height: 300px;">
+                        <h3>Ройбуш</h3>
+                        <p><span id="testRoibush">-</span> грн</p>
+                        <span class="hover1" style="color: green; cursor:pointer;" onclick="myFunctionOneRoibush()">25 г</span>
+                        <span class="hover2" style="color: green; cursor:pointer;" onclick="myFunctionTwoRoibush()">50 г</span>
+                        <span class="hover3" style="color: green; cursor:pointer;" onclick="myFunctionThreeRoibush()">100 г</span>
+                    </div>
+                        
+                    <!-- a try  JS Roibush -->
+                    <div>
+                        <script>
+                        function myFunctionOneRoibush() {
+                        document.getElementById("testRoibush").innerHTML="40";
+                }
+                        function myFunctionTwoRoibush() {
+                        document.getElementById("testRoibush").innerHTML="80";
+                }
+                        function myFunctionThreeRoibush() {
+                        document.getElementById("testRoibush").innerHTML="160";
+                }
+                        </script>                  
+                    </div>
+                </li>
+<!-- White-Angel section -->
+                <li>                  
+                    <div class="white-angel-div-box">
+                        <img src="images/white_angel.jpg" alt="white angel photo" style="width: 300px; height: 300px;">
+                        <h3>Білий янгол</h3>
+                        <p><span id="testAngel">-</span> грн</p>
+                        <span class="hover1" style="color: green; cursor:pointer;" onclick="myFunctionOneAngel()">25 г</span>
+                        <span class="hover2" style="color: green; cursor:pointer;" onclick="myFunctionTwoAngel()">50 г</span>
+                        <span class="hover3" style="color: green; cursor:pointer;" onclick="myFunctionThreeAngel()">100 г</span>
+                    </div>
+                    
+                <!-- a try JS white angel -->
+                    <div>
+                        <script>
+                        function myFunctionOneAngel() {
+                        document.getElementById("testAngel").innerHTML="55";
+                }
+                        function myFunctionTwoAngel() {
+                        document.getElementById("testAngel").innerHTML="110";
+                }
+                        function myFunctionThreeAngel() {
+                        document.getElementById("testAngel").innerHTML="220";
+                }
+                        </script>                  
+                    </div>
+                </li>
+<!-- Shai Hung section -->
+                <li>                   
+                    <div class="shai-box">
+                        <img src="images/gu_shu_shai_hong_03.jpg" alt="sahi hung photo" style="width: 300px; height: 300px;">
+                        <h3>Шай Хун</h3>
+                        <p><span id="testShai">-</span> грн</p>
+                        <span class="hover1" style="color: green; cursor:pointer;" onclick="myFunctionOneShai()">25 г</span>
+                        <span class="hover2" style="color: green; cursor:pointer;" onclick="myFunctionTwoShai()">50 г</span>
+                        <span class="hover3" style="color: green; cursor:pointer;" onclick="myFunctionThreeShai()">100 г</span>
+                    </div>
+                    
+                <!-- a try JS Roibush -->
+                    <div>
+                        <script>
+                        function myFunctionOneShai() {
+                        document.getElementById("testShai").innerHTML="80";
+                }
+                        function myFunctionTwoShai() {
+                        document.getElementById("testShai").innerHTML="160";
+                }
+                        function myFunctionThreeShai() {
+                        document.getElementById("testShai").innerHTML="320";
+                }
+                        </script>                  
+                    </div>                   
+                </li>
+<!--Peach Oolong section -->
+                <li>            
+                    <div class="white-angel-div-box">
+                        <img src="images/peach_oolong.jpg" alt="peach oolong photo" style="width: 300px; height: 300px;">
+                        <h3>Персиковий Улун</h3>
+                        <p><span id="testOolong">-</span> грн</p>
+                        <span class="hover1" style="color: green; cursor:pointer;" onclick="myFunctionOneOolong()">25 г</span>
+                        <span class="hover2" style="color: green; cursor:pointer;" onclick="myFunctionTwoOolong()">50 г</span>
+                        <span class="hover3" style="color: green; cursor:pointer;" onclick="myFunctionThreeOolong()">100 г</span>
+                    </div>
+                    
+                <!-- a try JS peach oolong -->
+                    <div>
+                        <script>
+                        function myFunctionOneOolong() {
+                        document.getElementById("testOolong").innerHTML="45";
+                }
+                        function myFunctionTwoOolong() {
+                        document.getElementById("testOolong").innerHTML="90";
+                }
+                        function myFunctionThreeOolong() {
+                        document.getElementById("testOolong").innerHTML="180";
+                }
+                        </script>                  
+                    </div>                   
+                </li>
+<!--Royal Mao Feng section -->
+                <li>                  
+                    <div class="white-angel-div-box">
+                        <img src="images/royal_mao_feng.jpg" alt="royal mao feng photo" style="width: 300px; height: 300px;">
+                        <h3>Королівський Мао Фен</h3>
+                        <p><span id="testMaoFeng">-</span> грн</p>
+                        <span class="hover1" style="color: green; cursor:pointer;" onclick="myFunctionOneMaoFeng()">25 г</span>
+                        <span class="hover2" style="color: green; cursor:pointer;" onclick="myFunctionTwoMaoFeng()">50 г</span>
+                        <span class="hover3" style="color: green; cursor:pointer;" onclick="myFunctionThreeMaoFeng()">100 г</span>
+                    </div>
+                    
+                <!-- a try JS royal mao feng -->
+                    <div>
+                        <script>
+                        function myFunctionOneMaoFeng() {
+                        document.getElementById("testMaoFeng").innerHTML="65";
+                }
+                        function myFunctionTwoMaoFeng() {
+                        document.getElementById("testMaoFeng").innerHTML="130";
+                }
+                        function myFunctionThreeMaoFeng() {
+                        document.getElementById("testMaoFeng").innerHTML="260";
+                }
+                        </script>                  
+                    </div>                   
+                </li>
+
+            </ul>
+        </main>
+<hr>
+<!-- Footer -->
+        <footer>
+            <section class="footer-section">
+                <div>
+                    <h4>Офіційний інтернет магазин <span style="color: #6ea859;"> щастя</span>. Доставка по Києву і всій Україні.</h4>
+                </div>
+
+                <table id="tableContact">
+                    <tr style = "border: 1px solid">
+                      <th style = "border: 1px solid">Наш телефон</th>
+                      <th style = "border: 1px solid">Наша пошта</th>
+                      <th style = "border: 1px solid">Більше про нашу ідею</th>
+                    </tr>
+                    <tr style = "border: 1px solid">
+                      <td style = "border: 1px solid"><a href="tel:+380935378912">093-537-89-12</a></td>
+                      <td style = "border: 1px solid"><a href="mailto:noreply@gmail.com">noreply@gmail.com</a></td>
+                      <td style = "border: 1px solid"><a href="logicDescription.html">тиць</a> </td>
+                    </tr>
+                  </table>                
+            </section>
+        </footer>
+    </div>
+</body>
+</html>
